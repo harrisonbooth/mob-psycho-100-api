@@ -159,6 +159,13 @@ organisation2 = Organisation.create(
   location: "Spice City"
 )
 
+organisation3 = Organisation.create(
+  name: "Claw",
+  description: "An evil organisation of espers who torture people until they awaken their latent abilities, who plan to take over the world.",
+  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/7/77/ClawLogo.png/revision/latest/scale-to-width-down/300?cb=20160829192452",
+  location: "Global"
+)
+
 membership1 = Membership.create(
   member: character1,
   organisation: organisation1
@@ -182,4 +189,9 @@ membership4 = Membership.create(
 membership5 = Membership.create(
   member: character3,
   organisation: organisation2
+)
+
+membership6 = Membership.create(
+  member: character7,
+  organisation: organisation1
 )
