@@ -28,6 +28,10 @@
     t.bigint "organisation_id"
 =end
 
+Membership.delete_all
+Organisation.delete_all
+Character.delete_all
+
 character1 = Character.create(
   name: "Kageyama Shigeo (Mob)",
   age: 14,
@@ -47,6 +51,6 @@ organisation1 = Organisation.create(
 )
 
 membership1 = Membership.create(
-  character: character1,
+  member: character1,
   organisation: organisation1
 )
