@@ -32,7 +32,7 @@
 character = Character.create(
   name: "",
   age: ,
-  psychic: "",
+  psychic: ,
   description: "",
   hair_length: "",
   tall: ,
@@ -60,7 +60,7 @@ Character.delete_all
 character1 = Character.create(
   name: "Kageyama Shigeo (Mob)",
   age: 14,
-  psychic: "Strong",
+  psychic: 95,
   description: "A shy, reserved kind of guy with a lot of repressed emotions and insane psychic abilities just trying to gain some popularity.",
   hair_length: "Medium",
   tall: false,
@@ -70,7 +70,7 @@ character1 = Character.create(
 
 character2 = Character.create(
   name: "Dimple",
-  age: 0,
+  age: 30,
   psychic: "Medium",
   description: "A former powerful evil spirit, stripped of his power by mob, but shown mercy and allowed to live. He's now friends with Mob, awaiting the day he can take over his body.",
   hair_length: "Bald",
@@ -82,7 +82,7 @@ character2 = Character.create(
 character3 = Character.create(
   name: "Reigan Arataka",
   age: 28,
-  psychic: "No",
+  psychic: 0,
   description: "A charismatic con-man, the self proclaimed psychic is Mob's master, helping him through tough times and never failing in his displays of ridiculous confidence.",
   hair_length: "Medium",
   tall: true,
@@ -93,7 +93,7 @@ character3 = Character.create(
 character4 = Character.create(
   name: "Ritsu Kageyama",
   age: 13,
-  psychic: "Medium",
+  psychic: 45,
   description: "Mob's brother, Ritsu is extremely intelligent, popular, and athletic. For the longest time he was jealous of Mob's psychic power, wishing for powers himself, he recently awakened his latent power and lost controll of himself. Mob reigned him in, however, and now he's alright.",
   hair_length: "Long",
   tall: false,
@@ -104,7 +104,7 @@ character4 = Character.create(
 character5 = Character.create(
   name: "Teruki Hanazawa (Teru)",
   age: 14,
-  psychic: "Strong",
+  psychic: 70,
   description: "Before meeting Mob, Teru abused his abilities, using them to live an easy life. After fighting with Mob, he realised that using his powers like that makes him a nobody, now he strives to live his house the real way, and help people when he can.",
   hair_length: "Long",
   tall: false,
@@ -115,12 +115,34 @@ character5 = Character.create(
 character6 = Character.create(
   name: "Musashi Gouda",
   age: 15,
-  psychic: "No",
+  psychic: 0,
   description: "Musashi has a strong sense of justice but strongly disagrees with senseless violence. He strives to constantly improve himself and help others to improve themselves also.",
   hair_length: "Short",
   tall: true,
   hair_colour: "Brown",
   image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/7/7a/Musashi_Gouda_anime2.png/revision/latest/scale-to-width-down/250?cb=20160801213907"
+)
+
+character7 = Character.create(
+  name: "Tenga Onigawara",
+  age: 15,
+  psychic: 0,
+  description: "An ex-thug who changed his ways from a life full of fighting between schools to a life of self improvements through the body improvement club.",
+  hair_length: "Short",
+  tall: true,
+  hair_colour: "Black",
+  image: "https://vignette4.wikia.nocookie.net/mob-psycho-100/images/e/ee/Onigawara_anime.png/revision/latest/scale-to-width-down/240?cb=20160817054028"
+)
+
+character8 = Character.create(
+  name: "Sho Suzuki",
+  age: 13,
+  psychic: 80,
+  description: "A powerful esper, son of the leader of Claw. He fights Claw at every chance he gets, and befriended Ritsu, they're not quite close.",
+  hair_length: "Medium",
+  tall: false,
+  hair_colour: "Orange",
+  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/9/9a/Shou_Suzuki_anime.png/revision/latest/scale-to-width-down/250?cb=20160912202651"
 )
 
 organisation1 = Organisation.create(
