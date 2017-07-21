@@ -1,3 +1,4 @@
 class Organisation < ApplicationRecord
-  has_many( :characters as members, {through: :memberships} )
+  has_many( :memberships )
+  has_many( :members, {through: :memberships}, :source => :characters)
 end

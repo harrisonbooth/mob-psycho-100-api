@@ -16,6 +16,16 @@
     t.boolean "tall"
     t.string "hair_colour"
     t.string "image"
+  Organisation
+    t.string "name"
+    t.text "description"
+    t.string "image"
+    t.string "location"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  Membership
+    t.bigint "character_id"
+    t.bigint "organisation_id"
 =end
 
 character1 = Character.create(
@@ -27,4 +37,16 @@ character1 = Character.create(
   tall: false,
   hair_colour: "Black",
   image: "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fvignette2.wikia.nocookie.net%2Fmob-psycho-100%2Fimages%2F8%2F8c%2FMob_anime.png%2Frevision%2Flatest%3Fcb%3D20160712054631&f=1"
+)
+
+organisation1 = Organisation.create(
+  name: "Body Improvement Club",
+  description: "A group dedicated to body improvement and bettering yourself.",
+  image: "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fshikiyu%2F20160719%2F20160719214007.jpg&f=1",
+  location: "Salt Middle School"
+)
+
+membership1 = Membership.create(
+  character: character1,
+  organisation: organisation1
 )
