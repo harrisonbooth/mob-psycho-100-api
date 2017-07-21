@@ -28,6 +28,31 @@
     t.bigint "organisation_id"
 =end
 
+=begin
+character = Character.create(
+  name: "",
+  age: ,
+  psychic: "",
+  description: "",
+  hair_length: "",
+  tall: ,
+  hair_colour: "",
+  image: ""
+)
+
+organisation = Organisation.create(
+  name: "",
+  description: "",
+  image: "",
+  location: ""
+)
+
+membership = Membership.create(
+  member: character,
+  organisation: organisation
+)
+=end
+
 Membership.delete_all
 Organisation.delete_all
 Character.delete_all
@@ -43,6 +68,61 @@ character1 = Character.create(
   image: "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fvignette2.wikia.nocookie.net%2Fmob-psycho-100%2Fimages%2F8%2F8c%2FMob_anime.png%2Frevision%2Flatest%3Fcb%3D20160712054631&f=1"
 )
 
+character2 = Character.create(
+  name: "Dimple",
+  age: 0,
+  psychic: "Medium",
+  description: "A former powerful evil spirit, stripped of his power by mob, but shown mercy and allowed to live. He's now friends with Mob, awaiting the day he can take over his body.",
+  hair_length: "Bald",
+  tall: false,
+  hair_colour: "Bald",
+  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/a/aa/Dimple_anime.png/revision/latest/scale-to-width-down/250?cb=20160725192827"
+)
+
+character3 = Character.create(
+  name: "Reigan Arataka",
+  age: 28,
+  psychic: "No",
+  description: "A charismatic con-man, the self proclaimed psychic is Mob's master, helping him through tough times and never failing in his displays of ridiculous confidence.",
+  hair_length: "Medium",
+  tall: true,
+  hair_colour: "Brown",
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/b/b0/Reigen_anime2.png/revision/latest/scale-to-width-down/250?cb=20160712054630"
+)
+
+character4 = Character.create(
+  name: "Ritsu Kageyama",
+  age: 13,
+  psychic: "Medium",
+  description: "Mob's brother, Ritsu is extremely intelligent, popular, and athletic. For the longest time he was jealous of Mob's psychic power, wishing for powers himself, he recently awakened his latent power and lost controll of himself. Mob reigned him in, however, and now he's alright.",
+  hair_length: "Long",
+  tall: false,
+  hair_colour: "Black",
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/3/30/RitsuInAnime.png/revision/latest/scale-to-width-down/250?cb=20160831142316"
+)
+
+character5 = Character.create(
+  name: "Teruki Hanazawa (Teru)",
+  age: 14,
+  psychic: "Strong",
+  description: "Before meeting Mob, Teru abused his abilities, using them to live an easy life. After fighting with Mob, he realised that using his powers like that makes him a nobody, now he strives to live his house the real way, and help people when he can.",
+  hair_length: "Long",
+  tall: false,
+  hair_colour: "Blonde",
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/a/ae/Hanazawa_Teruki_anime2.png/revision/latest/scale-to-width-down/250?cb=20160801213909"
+)
+
+character6 = Character.create(
+  name: "Musashi Gouda",
+  age: 15,
+  psychic: "No",
+  description: "Musashi has a strong sense of justice but strongly disagrees with senseless violence. He strives to constantly improve himself and help others to improve themselves also.",
+  hair_length: "Short",
+  tall: true,
+  hair_colour: "Brown",
+  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/7/7a/Musashi_Gouda_anime2.png/revision/latest/scale-to-width-down/250?cb=20160801213907"
+)
+
 organisation1 = Organisation.create(
   name: "Body Improvement Club",
   description: "A group dedicated to body improvement and bettering yourself.",
@@ -50,7 +130,34 @@ organisation1 = Organisation.create(
   location: "Salt Middle School"
 )
 
+organisation2 = Organisation.create(
+  name: "Spirits and Such Consultation Office",
+  description: "The spirit exercism agency founded by the fraud: Reigan Arataka. Despite this, it's quite successful and fairly well known.",
+  image: "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Flostinanime.com%2Fwp-content%2Fuploads%2F2016%2F07%2FMob-Psycho-100-02-6.jpg&f=1",
+  location: "Spice City"
+)
+
 membership1 = Membership.create(
   member: character1,
   organisation: organisation1
+)
+
+membership2 = Membership.create(
+  member: character6,
+  organisation: organisation1
+)
+
+membership3 = Membership.create(
+  member: character1,
+  organisation: organisation2
+)
+
+membership4 = Membership.create(
+  member: character2,
+  organisation: organisation2
+)
+
+membership5 = Membership.create(
+  member: character3,
+  organisation: organisation2
 )
