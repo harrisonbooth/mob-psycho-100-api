@@ -71,7 +71,7 @@ character1 = Character.create(
 character2 = Character.create(
   name: "Dimple",
   age: 30,
-  psychic: "Medium",
+  psychic: 40,
   description: "A former powerful evil spirit, stripped of his power by mob, but shown mercy and allowed to live. He's now friends with Mob, awaiting the day he can take over his body.",
   hair_length: "Bald",
   tall: false,
@@ -145,6 +145,116 @@ character8 = Character.create(
   image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/9/9a/Shou_Suzuki_anime.png/revision/latest/scale-to-width-down/250?cb=20160912202651"
 )
 
+character9 = Character.create(
+  name: "Shinji Kamuro",
+  age: 14,
+  psychic: 0,
+  description: "President of the Student Council, Shinji is desperate to prove e himself to his brother and the rest of his family without success. He will go to any length to achieve his goals.",
+  hair_length: "Medium",
+  tall: true,
+  hair_colour: "Brown",
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/a/a3/Shinji_Kamuro_anime.png/revision/latest/scale-to-width-down/250?cb=20160817030302"
+)
+
+character10 = Character.create(
+  name: "Ishiguro",
+  age: 82,
+  psychic: 75,
+  description: "Ishiguro believes that his psychic power makes him a more advanced being than 'normal' humans. He refuses any challenge to this belief, and throws frenzied tantrums in retort. He hides his face with a black gas mask.",
+  hair_length: "Bald",
+  tall: false,
+  hair_colour: "Bald",
+  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/6/6e/Ishiguro_anime.png/revision/latest/scale-to-width-down/250?cb=20160907033529"
+)
+
+character11 = Character.create(
+  name: "Daichi Shiratori",
+  age: 12,
+  psychic: 17,
+  description: "Daichi is one of the Shiratori brothers, able to communicate with his twin telepathically. He is quite calm in the face of adversity, and quite quiet.",
+  hair_length: "Short",
+  tall: false,
+  hair_colour: "Brown",
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/6/6a/Daichi_Shiratori_anime2.png/revision/latest/scale-to-width-down/240?cb=20160817054026"
+)
+
+character12 = Character.create(
+  name: "Kaito Shiratori",
+  age: 12,
+  psychic: 17,
+  description: "Kaito is one of the Shiratori brothers, able to communicate with his twin telepathically. He is quite calm in the face of adversity, and quite quiet.",
+  hair_length: "Short",
+  tall: false,
+  hair_colour: "Brown",
+  image: "https://vignette2.wikia.nocookie.net/mob-psycho-100/images/b/b7/Kaito_Shiratori_anime2.png/revision/latest/scale-to-width-down/240?cb=20160817054027"
+)
+
+character13 = Character.create(
+  name: "Takeshi Hishino",
+  age: 16,
+  psychic: 29,
+  description: "A relaxed teen, Takeshi has telekinetic abilities. Although starting week, he has improved, now showing the ability to lift cars.",
+  hair_length: "Long",
+  tall: false,
+  hair_colour: "Black",
+  image: "https://vignette2.wikia.nocookie.net/mob-psycho-100/images/4/43/Takeshi.png/revision/latest/scale-to-width-down/250?cb=20160816133652"
+)
+
+character14 = Character.create(
+  name: "Go Asahi",
+  age: 14,
+  psychic: 27,
+  description: "A young pyrokinetic, Go has unexplained confidence in his rather lack-luster abilities. He is able to conjure small flames.",
+  hair_length: "Long",
+  tall: false,
+  hair_colour: "Blonde",
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/3/37/Gou_Asahi_anime.png/revision/latest/scale-to-width-down/250?cb=20160816132111"
+)
+
+character15 = Character.create(
+  name: "Koyama",
+  age: 32,
+  psychic: 65,
+  description: "Koyama is a hot-headed fighter for Claw, he is one of the 'Scars', meaning he has survived a battle with the organisations leader. He is easily frustrated and reckless. He is a very violent man, and has not qualms with terrorizing his opponents.",
+  hair_length: "Short",
+  tall: true,
+  hair_colour: "Brown",
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/f/f5/Koyama_anime.png/revision/latest/scale-to-width-down/250?cb=20160830000758"
+)
+
+character16 = Character.create(
+  name: "Matsuo",
+  age: 22,
+  psychic: 50,
+  description: "Matsuo is a 'Scar' member of Claw, meaning he has survived a battle with the orgnaisations leader. He has a creepily calm personality, and cause people around him to feel very uncomfortable. He keeps evil spirits as pets, and uses them to fight.",
+  hair_length: "Medium",
+  tall: true,
+  hair_colour: "Black",
+  image: "https://vignette2.wikia.nocookie.net/mob-psycho-100/images/d/d7/Matsuo_anime.png/revision/latest/scale-to-width-down/250?cb=20160912202648"
+)
+
+character17 = Character.create(
+  name: "Rei Kurosaki",
+  age: 13,
+  psychic: 15,
+  description: "Rei is a good natured person. She is kind and friendly. She has the ability of clairvoyance, which means she can predict and pick correct options and pathways. Her last known rating of accuracy was 62% from 10 options.",
+  hair_length: "Medium",
+  tall: false,
+  hair_colour: "Brown",
+  image: "https://vignette4.wikia.nocookie.net/mob-psycho-100/images/6/64/Rei_Kurosaki_anime2.png/revision/latest/scale-to-width-down/240?cb=20160817054028"
+)
+
+character18 = Character.create(
+  name: "Sakurai",
+  age: 30,
+  psychic: 66,
+  description: "Sakurai is a focused, stern man. Almost always serious, he seems somewhat reasonable compared to other members of the 'Claw' group. He has the ability to imbue objects with 'curses', which let him to charge them with powerful psychic energy.",
+  hair_length: "Short",
+  tall: true,
+  hair_colour: "Black",
+  image: "https://vignette2.wikia.nocookie.net/mob-psycho-100/images/2/2f/Sakurai_anime.png/revision/latest/scale-to-width-down/250?cb=20160907033531"
+)
+
 organisation1 = Organisation.create(
   name: "Body Improvement Club",
   description: "A group dedicated to body improvement and bettering yourself.",
@@ -164,6 +274,20 @@ organisation3 = Organisation.create(
   description: "An evil organisation of espers who torture people until they awaken their latent abilities, who plan to take over the world.",
   image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/7/77/ClawLogo.png/revision/latest/scale-to-width-down/300?cb=20160829192452",
   location: "Global"
+)
+
+organisation4 = Organisation.create(
+  name: "Student Council",
+  description: "The student government which rules how Salt Middle School operates: enforcing rules, punishing delinquents, and moderating clubs.",
+  image: "https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette4.wikia.nocookie.net%2Fmob-psycho-100%2Fimages%2F4%2F44%2FTokugawa_anime.png%2Frevision%2Flatest%3Fcb%3D20160719041535&f=1",
+  location: "Salt Middle School"
+)
+
+organisation5 = Organisation.create(
+  name: "Awakening Lab",
+  description: "An initiative run by a very rich man who yearns for powers of his own, the awakening lab is dedicated to finding youths and nurturing their latent, or awakened, psychic powers.",
+  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/c/c8/Kenji.png/revision/latest/scale-to-width-down/185?cb=20160816131302",
+  location: "Spice City"
 )
 
 membership1 = Membership.create(
@@ -194,4 +318,59 @@ membership5 = Membership.create(
 membership6 = Membership.create(
   member: character7,
   organisation: organisation1
+)
+
+membership7 = Membership.create(
+  member: character9,
+  organisation: organisation4
+)
+
+membership8 = Membership.create(
+  member: character10,
+  organisation: organisation3
+)
+
+membership9 = Membership.create(
+  member: character15,
+  organisation: organisation3
+)
+
+membership10 = Membership.create(
+  member: character4,
+  organisation: organisation5
+)
+
+membership11 = Membership.create(
+  member: character5,
+  organisation: organisation5
+)
+
+membership12 = Membership.create(
+  member: character11,
+  organisation: organisation5
+)
+
+membership13 = Membership.create(
+  member: character12,
+  organisation: organisation5
+)
+
+membership14 = Membership.create(
+  member: character13,
+  organisation: organisation5
+)
+
+membership15 = Membership.create(
+  member: character14,
+  organisation: organisation5
+)
+
+membership16 = Membership.create(
+  member: character17,
+  organisation: organisation5
+)
+
+membership17 = Membership.create(
+  member: character4,
+  organisation: organisation4
 )
