@@ -374,3 +374,8 @@ membership17 = Membership.create(
   member: character4,
   organisation: organisation4
 )
+
+membership18 = Membership.create(
+  member: character18,
+  organisation: organisation3
+)
