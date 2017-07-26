@@ -65,7 +65,8 @@ character1 = Character.create(
   hair_length: "Medium",
   tall: false,
   hair_colour: "Black",
-  image: "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fvignette2.wikia.nocookie.net%2Fmob-psycho-100%2Fimages%2F8%2F8c%2FMob_anime.png%2Frevision%2Flatest%3Fcb%3D20160712054631&f=1"
+  image: "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fvignette2.wikia.nocookie.net%2Fmob-psycho-100%2Fimages%2F8%2F8c%2FMob_anime.png%2Frevision%2Flatest%3Fcb%3D20160712054631&f=1",
+  special_move: "100%"
 )
 
 character2 = Character.create(
@@ -76,7 +77,8 @@ character2 = Character.create(
   hair_length: "Bald",
   tall: false,
   hair_colour: "Bald",
-  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/a/aa/Dimple_anime.png/revision/latest/scale-to-width-down/250?cb=20160725192827"
+  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/a/aa/Dimple_anime.png/revision/latest/scale-to-width-down/250?cb=20160725192827",
+  special_move: "God Beam"
 )
 
 character3 = Character.create(
@@ -87,7 +89,8 @@ character3 = Character.create(
   hair_length: "Medium",
   tall: true,
   hair_colour: "Brown",
-  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/b/b0/Reigen_anime2.png/revision/latest/scale-to-width-down/250?cb=20160712054630"
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/b/b0/Reigen_anime2.png/revision/latest/scale-to-width-down/250?cb=20160712054630",
+  special_move: "Anti-Esper Dropkick, Anti-Possession Flying Knee, Cheeseburger Tornado, Graphic Exorcism, Evil Crushing Elbow, Hypnosis Punch, Justifiable Self-Defense Rush, Knee Strike, Picking Evil Purification, Purifying Salt Punch, Rainbow Seal, Salt Splash, Sorcery Crush, Aroma Runaway Express"
 )
 
 character4 = Character.create(
@@ -98,7 +101,8 @@ character4 = Character.create(
   hair_length: "Long",
   tall: false,
   hair_colour: "Black",
-  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/3/30/RitsuInAnime.png/revision/latest/scale-to-width-down/250?cb=20160831142316"
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/3/30/RitsuInAnime.png/revision/latest/scale-to-width-down/250?cb=20160831142316",
+  special_move: "Dimple Possession"
 )
 
 character5 = Character.create(
@@ -109,7 +113,8 @@ character5 = Character.create(
   hair_length: "Long",
   tall: false,
   hair_colour: "Blonde",
-  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/a/ae/Hanazawa_Teruki_anime2.png/revision/latest/scale-to-width-down/250?cb=20160801213909"
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/a/ae/Hanazawa_Teruki_anime2.png/revision/latest/scale-to-width-down/250?cb=20160801213909",
+  special_move: "Enhanced Movement"
 )
 
 character6 = Character.create(
@@ -120,7 +125,8 @@ character6 = Character.create(
   hair_length: "Short",
   tall: true,
   hair_colour: "Brown",
-  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/7/7a/Musashi_Gouda_anime2.png/revision/latest/scale-to-width-down/250?cb=20160801213907"
+  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/7/7a/Musashi_Gouda_anime2.png/revision/latest/scale-to-width-down/250?cb=20160801213907",
+  special_move: "Punch"
 )
 
 character7 = Character.create(
@@ -131,7 +137,8 @@ character7 = Character.create(
   hair_length: "Short",
   tall: true,
   hair_colour: "Black",
-  image: "https://vignette4.wikia.nocookie.net/mob-psycho-100/images/e/ee/Onigawara_anime.png/revision/latest/scale-to-width-down/240?cb=20160817054028"
+  image: "https://vignette4.wikia.nocookie.net/mob-psycho-100/images/e/ee/Onigawara_anime.png/revision/latest/scale-to-width-down/240?cb=20160817054028",
+  special_move: "Demon Rush"
 )
 
 character8 = Character.create(
@@ -142,7 +149,8 @@ character8 = Character.create(
   hair_length: "Medium",
   tall: false,
   hair_colour: "Orange",
-  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/9/9a/Shou_Suzuki_anime.png/revision/latest/scale-to-width-down/250?cb=20160912202651"
+  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/9/9a/Shou_Suzuki_anime.png/revision/latest/scale-to-width-down/250?cb=20160912202651",
+  special_move: "Charge Bomb"
 )
 
 character9 = Character.create(
@@ -153,7 +161,8 @@ character9 = Character.create(
   hair_length: "Medium",
   tall: true,
   hair_colour: "Brown",
-  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/a/a3/Shinji_Kamuro_anime.png/revision/latest/scale-to-width-down/250?cb=20160817030302"
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/a/a3/Shinji_Kamuro_anime.png/revision/latest/scale-to-width-down/250?cb=20160817030302",
+  special_move: "Unethical Methods"
 )
 
 character10 = Character.create(
@@ -164,7 +173,8 @@ character10 = Character.create(
   hair_length: "Bald",
   tall: false,
   hair_colour: "Bald",
-  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/6/6e/Ishiguro_anime.png/revision/latest/scale-to-width-down/250?cb=20160907033529"
+  image: "https://vignette3.wikia.nocookie.net/mob-psycho-100/images/6/6e/Ishiguro_anime.png/revision/latest/scale-to-width-down/250?cb=20160907033529",
+  special_move: "Black Orbs"
 )
 
 character11 = Character.create(
@@ -175,7 +185,8 @@ character11 = Character.create(
   hair_length: "Short",
   tall: false,
   hair_colour: "Brown",
-  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/6/6a/Daichi_Shiratori_anime2.png/revision/latest/scale-to-width-down/240?cb=20160817054026"
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/6/6a/Daichi_Shiratori_anime2.png/revision/latest/scale-to-width-down/240?cb=20160817054026",
+  special_move: "Twin Telepathy"
 )
 
 character12 = Character.create(
@@ -186,7 +197,8 @@ character12 = Character.create(
   hair_length: "Short",
   tall: false,
   hair_colour: "Brown",
-  image: "https://vignette2.wikia.nocookie.net/mob-psycho-100/images/b/b7/Kaito_Shiratori_anime2.png/revision/latest/scale-to-width-down/240?cb=20160817054027"
+  image: "https://vignette2.wikia.nocookie.net/mob-psycho-100/images/b/b7/Kaito_Shiratori_anime2.png/revision/latest/scale-to-width-down/240?cb=20160817054027",
+  special_move: "Twin Telepathy"
 )
 
 character13 = Character.create(
@@ -197,7 +209,8 @@ character13 = Character.create(
   hair_length: "Long",
   tall: false,
   hair_colour: "Black",
-  image: "https://vignette2.wikia.nocookie.net/mob-psycho-100/images/4/43/Takeshi.png/revision/latest/scale-to-width-down/250?cb=20160816133652"
+  image: "https://vignette2.wikia.nocookie.net/mob-psycho-100/images/4/43/Takeshi.png/revision/latest/scale-to-width-down/250?cb=20160816133652",
+  special_move: "Telekinesis"
 )
 
 character14 = Character.create(
@@ -208,7 +221,8 @@ character14 = Character.create(
   hair_length: "Long",
   tall: false,
   hair_colour: "Blonde",
-  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/3/37/Gou_Asahi_anime.png/revision/latest/scale-to-width-down/250?cb=20160816132111"
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/3/37/Gou_Asahi_anime.png/revision/latest/scale-to-width-down/250?cb=20160816132111",
+  special_move: "Pyrokinesis"
 )
 
 character15 = Character.create(
@@ -219,7 +233,8 @@ character15 = Character.create(
   hair_length: "Short",
   tall: true,
   hair_colour: "Brown",
-  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/f/f5/Koyama_anime.png/revision/latest/scale-to-width-down/250?cb=20160830000758"
+  image: "https://vignette1.wikia.nocookie.net/mob-psycho-100/images/f/f5/Koyama_anime.png/revision/latest/scale-to-width-down/250?cb=20160830000758",
+  special_move: "Telekinetic Helix"
 )
 
 character16 = Character.create(
@@ -230,7 +245,8 @@ character16 = Character.create(
   hair_length: "Medium",
   tall: true,
   hair_colour: "Black",
-  image: "https://vignette2.wikia.nocookie.net/mob-psycho-100/images/d/d7/Matsuo_anime.png/revision/latest/scale-to-width-down/250?cb=20160912202648"
+  image: "https://vignette2.wikia.nocookie.net/mob-psycho-100/images/d/d7/Matsuo_anime.png/revision/latest/scale-to-width-down/250?cb=20160912202648",
+  special_move: "Candy-chan"
 )
 
 character17 = Character.create(
@@ -241,7 +257,8 @@ character17 = Character.create(
   hair_length: "Medium",
   tall: false,
   hair_colour: "Brown",
-  image: "https://vignette4.wikia.nocookie.net/mob-psycho-100/images/6/64/Rei_Kurosaki_anime2.png/revision/latest/scale-to-width-down/240?cb=20160817054028"
+  image: "https://vignette4.wikia.nocookie.net/mob-psycho-100/images/6/64/Rei_Kurosaki_anime2.png/revision/latest/scale-to-width-down/240?cb=20160817054028",
+  special_move: "Clairvoyance"
 )
 
 character18 = Character.create(
@@ -252,7 +269,8 @@ character18 = Character.create(
   hair_length: "Short",
   tall: true,
   hair_colour: "Black",
-  image: "https://vignette2.wikia.nocookie.net/mob-psycho-100/images/2/2f/Sakurai_anime.png/revision/latest/scale-to-width-down/250?cb=20160907033531"
+  image: "https://vignette2.wikia.nocookie.net/mob-psycho-100/images/2/2f/Sakurai_anime.png/revision/latest/scale-to-width-down/250?cb=20160907033531",
+  special_move: "Air Gun"
 )
 
 organisation1 = Organisation.create(
